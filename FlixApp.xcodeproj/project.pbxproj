@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				50B999DD2203E99A0022F280 /* AppDelegate.swift */,
-				50B999DF2203E99A0022F280 /* MoviesViewController.swift */,
 				50B999E12203E99A0022F280 /* Main.storyboard */,
 				50B999E42203E99A0022F280 /* Assets.xcassets */,
 				50B999E62203E99A0022F280 /* LaunchScreen.storyboard */,
 				50B999E92203E99A0022F280 /* Info.plist */,
+				50B999DF2203E99A0022F280 /* MoviesViewController.swift */,
 			);
 			path = FlixApp;
 			sourceTree = "<group>";
