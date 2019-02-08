@@ -16,6 +16,8 @@
 		50B999FE2203E99A0022F280 /* FlixAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B999FD2203E99A0022F280 /* FlixAppUITests.swift */; };
 		50B99A0C2203FD600022F280 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B99A0B2203FD600022F280 /* MovieCell.swift */; };
 		50D9DEF4220D2815002FA440 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D9DEF3220D2815002FA440 /* MovieDetailsViewController.swift */; };
+		50D9DEF6220D31F7002FA440 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D9DEF5220D31F7002FA440 /* MovieGridViewController.swift */; };
+		50D9DEF8220D3589002FA440 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D9DEF7220D3589002FA440 /* MovieGridCell.swift */; };
 		71C358140DEE55C1DB2DB0EF /* Pods_FlixApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BC197B63119B9E277080DF /* Pods_FlixApp.framework */; };
 		AA57BF09B3519B245C94E53D /* Pods_FlixAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E48394003A46F42BF8D0F2F /* Pods_FlixAppUITests.framework */; };
 		B07D83EF9BDAA83DC1887EA6 /* Pods_FlixAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F039FC51E5C19BE9EEC8D8 /* Pods_FlixAppTests.framework */; };
@@ -59,6 +61,8 @@
 		50B999FF2203E99A0022F280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B99A0B2203FD600022F280 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		50D9DEF3220D2815002FA440 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		50D9DEF5220D31F7002FA440 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		50D9DEF7220D3589002FA440 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		66AC3E37A70ADF651965924C /* Pods-FlixAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixAppTests/Pods-FlixAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		71A0CFD069477EC7705AE011 /* Pods-FlixApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixApp/Pods-FlixApp.release.xcconfig"; sourceTree = "<group>"; };
 		BF7ACAB15C30FA4A92F2650C /* Pods-FlixAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixAppTests/Pods-FlixAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				50B999DF2203E99A0022F280 /* MoviesViewController.swift */,
 				50B99A0B2203FD600022F280 /* MovieCell.swift */,
 				50D9DEF3220D2815002FA440 /* MovieDetailsViewController.swift */,
+				50D9DEF5220D31F7002FA440 /* MovieGridViewController.swift */,
+				50D9DEF7220D3589002FA440 /* MovieGridCell.swift */,
 			);
 			path = FlixApp;
 			sourceTree = "<group>";
@@ -399,9 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D9DEF6220D31F7002FA440 /* MovieGridViewController.swift in Sources */,
 				50D9DEF4220D2815002FA440 /* MovieDetailsViewController.swift in Sources */,
 				50B999E02203E99A0022F280 /* MoviesViewController.swift in Sources */,
 				50B999DE2203E99A0022F280 /* AppDelegate.swift in Sources */,
+				50D9DEF8220D3589002FA440 /* MovieGridCell.swift in Sources */,
 				50B99A0C2203FD600022F280 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
